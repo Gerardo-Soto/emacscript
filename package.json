@@ -1,0 +1,19 @@
+{
+  "name": "emacscript",
+  "version": "0.0.1",
+  "description": "practicing with the new features of EMACScript 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerardo-Soto/emacscript.git"
+  },
+  "author": "gerardo.8.soto@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gerardo-Soto/emacscript/issues"
+  },
+  "homepage": "https://github.com/Gerardo-Soto/emacscript#readme"
+}
