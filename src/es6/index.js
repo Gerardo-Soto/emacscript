@@ -104,4 +104,20 @@ obj = { firstName: name, age: age};
 obj6 = {firstName, age};
 
 
+// Promesas
+
+const helloPromise = () => {
+    return new Promise((resolve, reject) => {
+        if (true){
+            resolve('Promesa cumplida!');
+        }else{
+            reject('No se cumplio la promesa.');
+        }
+    });
+}
+
+helloPromise()
+.then(response => console.log(response))
+.catch(error => console.log(error));
+
 
