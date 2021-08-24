@@ -31,3 +31,77 @@ console.log(epicphrase);
 let epicphrase6 = `${hello} ${world}`;
 console.log(epicphrase6);
 
+
+// Multilineas
+
+// EMACScript 5-
+let lorem = "Qui consequartur. Commodi. Ipsum vel duis yet minima \n"
++ "Otra frase épica que necesitamos.";
+
+// EMACScript 6+
+let lorem2 = `Qui consequartur. Commodi. Ipsum vel duis yet minima
+Otra frase épica que necesitamos.`;
+
+console.log(lorem);
+console.log(lorem2);
+
+// Desestructuración de elementos
+
+let person = {
+    'name': 'Gerard',
+    'age': 27,
+    'country': 'MX'
+}
+// Accediendo a los valores del objeto 
+// EMACScript  5-
+console.log(person.name, person.age);
+
+// Desestructurar este elemento:
+// EMACScript 6+
+// v- crear una variable con los atributos del objeto
+let {name, country} = person;
+console.log(name, country);
+
+
+// Operador de propagación / Spread Operator
+
+let team1 = ['Yesenia', 'Gerard', 'Richard'];
+let team2 = ['Karen', 'Rafa', 'Lessli'];
+
+let education = ['David', ...team1, ...team2];
+
+
+
+// let - Solo está disponible en el Scope
+
+var globalScopeVar = "globalScopeVar";
+let globalScopeLel = "globalScopeLel";
+const globalScopeConst = "globalScopeConst";
+
+{
+    var blockScopeVar = "blockScopeVar";
+    let blockScopeLet = "blockScopeLet";
+    const blockScopeConst = "blockScopeConst";
+    console.log(globalScopeVar);
+    console.log(globalScopeLel);
+    console.log(globalScopeConst);
+}
+
+console.log(blockScopeVar);
+console.log(blockScopeLet);
+console.log(blockScopeConst);
+
+
+// Creación de un objeto
+
+let firstName  = 'Gerard';
+let age = 27;
+
+// EMACScript 5-
+obj = { firstName: name, age: age};
+
+// EMACScript 6+
+obj6 = {firstName, age};
+
+
+
