@@ -22,7 +22,7 @@ const data2 = {
     desing: 'ana',
 }
 
-const values = Object.values(data);
+const values = Object.values(data2);
 console.log(values);
 
 
