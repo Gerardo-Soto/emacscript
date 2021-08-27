@@ -52,6 +52,8 @@ helloCountry()
 const regexData = /([0-2]{1}[0-9]{3})-([0-1]{1}[0-9]{1})-([0-3]{1}[0-9]{1})/;
 const match = regexData.exec('2021-08-25');
 
+const zero = match[0];
+console.log(zero);
 const year = match[1];
 const month = match[2];
 const day = match[3];
